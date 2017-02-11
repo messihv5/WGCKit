@@ -1,0 +1,23 @@
+PODS:
+  - MBProgressHUD (1.0.0)
+  - MJRefresh (3.1.12)
+  - RDVTabBarController (1.1.9)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - MBProgressHUD
+  - MJRefresh
+  - RDVTabBarController
+  - YYKit
+
+SPEC CHECKSUMS:
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: fad50f769447c352530af73f33e76f3d79721137
+
+COCOAPODS: 1.2.0.beta.3

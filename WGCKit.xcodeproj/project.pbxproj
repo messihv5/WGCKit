@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D03E9D31E2B1021004A83C2 /* WGCLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D03E9D21E2B1021004A83C2 /* WGCLoopView.m */; };
+		4D0BF2B71E2C565600937E90 /* WGCEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF2B61E2C565600937E90 /* WGCEmptyView.m */; };
+		4D0BF2BA1E2C5E1F00937E90 /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF2B91E2C5E1F00937E90 /* EmptyViewController.m */; };
+		4D0BF2C01E2CB42400937E90 /* WGCLineHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF2BF1E2CB42400937E90 /* WGCLineHelper.m */; };
+		4D17C8D01E1C94840056414C /* WGCTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17C8CB1E1C94840056414C /* WGCTestTableViewController.m */; };
+		4D17C8D11E1C94840056414C /* WGCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17C8CF1E1C94840056414C /* WGCTestViewController.m */; };
+		4D17C8D41E1C94A30056414C /* WGCTestRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17C8D31E1C94A30056414C /* WGCTestRefreshTableViewController.m */; };
+		4D45E1A31E1D25BB007A9FDC /* WGCTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D45E1A21E1D25BB007A9FDC /* WGCTableViewCell.m */; };
+		4D4ACB791E29B72E002D3703 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4ACB781E29B72E002D3703 /* 1.png */; };
+		4D4ACB7D1E29B738002D3703 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4ACB7C1E29B738002D3703 /* 3.png */; };
+		4D4ACB7F1E29E579002D3703 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D4ACB7E1E29E579002D3703 /* 2.png */; };
+		4DAD58261E1BCD0400FF6E7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD58251E1BCD0400FF6E7F /* main.m */; };
+		4DAD58291E1BCD0400FF6E7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DAD58281E1BCD0400FF6E7F /* AppDelegate.m */; };
+		4DAD582F1E1BCD0400FF6E7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD582D1E1BCD0400FF6E7F /* Main.storyboard */; };
+		4DAD58311E1BCD0400FF6E7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD58301E1BCD0400FF6E7F /* Assets.xcassets */; };
+		4DAD58341E1BCD0400FF6E7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAD58321E1BCD0400FF6E7F /* LaunchScreen.storyboard */; };
+		4DC0C4971E28CE910037C053 /* TabOneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0C4961E28CE910037C053 /* TabOneModel.m */; };
+		4DC0C4B21E28D63D0037C053 /* UITableView+FDIndexPathHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0C4A91E28D63D0037C053 /* UITableView+FDIndexPathHeightCache.m */; };
+		4DC0C4B31E28D63D0037C053 /* UITableView+FDKeyedHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0C4AB1E28D63D0037C053 /* UITableView+FDKeyedHeightCache.m */; };
+		4DC0C4B41E28D63D0037C053 /* UITableView+FDTemplateLayoutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0C4AD1E28D63D0037C053 /* UITableView+FDTemplateLayoutCell.m */; };
+		4DC0C4B51E28D63D0037C053 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0C4AF1E28D63D0037C053 /* UITableView+FDTemplateLayoutCellDebug.m */; };
+		4DC0C4B61E28D63D0037C053 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 4DC0C4B01E28D63D0037C053 /* LICENSE */; };
+		4DC0C4B71E28D63D0037C053 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 4DC0C4B11E28D63D0037C053 /* README.md */; };
+		4DC703D81E378E0B003BD34D /* WGCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC703D71E378E0B003BD34D /* WGCNavigationController.m */; };
+		4DE32EC41E46034900431A73 /* TabOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DE32EC31E46034900431A73 /* TabOneCell.m */; };
+		4DE32EC61E46035C00431A73 /* TabOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE32EC51E46035C00431A73 /* TabOneCell.xib */; };
+		4DF5F2631E1C834C002B8E1E /* WGCButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5F2601E1C834C002B8E1E /* WGCButton.m */; };
+		4DF5F2641E1C834C002B8E1E /* WGCTopBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5F2621E1C834C002B8E1E /* WGCTopBar.m */; };
+		4DF5F2671E1C83DF002B8E1E /* WGCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5F2661E1C83DF002B8E1E /* WGCViewController.m */; };
+		4DF5F26A1E1C8A03002B8E1E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5F2691E1C8A03002B8E1E /* MainViewController.m */; };
+		4DF5F26D1E1C8A7A002B8E1E /* WGCTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5F26C1E1C8A7A002B8E1E /* WGCTableViewController.m */; };
+		4DF5F2701E1C8AA5002B8E1E /* WGCRefreshTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DF5F26F1E1C8AA5002B8E1E /* WGCRefreshTableViewController.m */; };
+		FB39944937B017E02C47616E /* libPods-WGCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 015BA81CF2529DE1B671E2B2 /* libPods-WGCKit.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		015BA81CF2529DE1B671E2B2 /* libPods-WGCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WGCKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32CAC3A1F0405D85BECB7359 /* Pods-WGCKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGCKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-WGCKit/Pods-WGCKit.release.xcconfig"; sourceTree = "<group>"; };
+		4D03E9D11E2B1021004A83C2 /* WGCLoopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCLoopView.h; sourceTree = "<group>"; };
+		4D03E9D21E2B1021004A83C2 /* WGCLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCLoopView.m; sourceTree = "<group>"; };
+		4D0BF2B51E2C565600937E90 /* WGCEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCEmptyView.h; sourceTree = "<group>"; };
+		4D0BF2B61E2C565600937E90 /* WGCEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCEmptyView.m; sourceTree = "<group>"; };
+		4D0BF2B81E2C5E1F00937E90 /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
+		4D0BF2B91E2C5E1F00937E90 /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
+		4D0BF2BE1E2CB42400937E90 /* WGCLineHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCLineHelper.h; sourceTree = "<group>"; };
+		4D0BF2BF1E2CB42400937E90 /* WGCLineHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCLineHelper.m; sourceTree = "<group>"; };
+		4D17C8CA1E1C94840056414C /* WGCTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCTestTableViewController.h; sourceTree = "<group>"; };
+		4D17C8CB1E1C94840056414C /* WGCTestTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCTestTableViewController.m; sourceTree = "<group>"; };
+		4D17C8CE1E1C94840056414C /* WGCTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCTestViewController.h; sourceTree = "<group>"; };
+		4D17C8CF1E1C94840056414C /* WGCTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCTestViewController.m; sourceTree = "<group>"; };
+		4D17C8D21E1C94A30056414C /* WGCTestRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCTestRefreshTableViewController.h; sourceTree = "<group>"; };
+		4D17C8D31E1C94A30056414C /* WGCTestRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCTestRefreshTableViewController.m; sourceTree = "<group>"; };
+		4D45E1A11E1D25BB007A9FDC /* WGCTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCTableViewCell.h; sourceTree = "<group>"; };
+		4D45E1A21E1D25BB007A9FDC /* WGCTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCTableViewCell.m; sourceTree = "<group>"; };
+		4D4ACB781E29B72E002D3703 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4D4ACB7C1E29B738002D3703 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		4D4ACB7E1E29E579002D3703 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		4D7493E91E4EFBFB001BDA0B /* WGCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WGCKit.h; sourceTree = "<group>"; };
+		4DAD58211E1BCD0400FF6E7F /* WGCKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WGCKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAD58251E1BCD0400FF6E7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4DAD58271E1BCD0400FF6E7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4DAD58281E1BCD0400FF6E7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4DAD582E1E1BCD0400FF6E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DAD58301E1BCD0400FF6E7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DAD58331E1BCD0400FF6E7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DAD58351E1BCD0400FF6E7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC0C4951E28CE910037C053 /* TabOneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneModel.h; sourceTree = "<group>"; };
+		4DC0C4961E28CE910037C053 /* TabOneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneModel.m; sourceTree = "<group>"; };
+		4DC0C4A81E28D63D0037C053 /* UITableView+FDIndexPathHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDIndexPathHeightCache.h"; sourceTree = "<group>"; };
+		4DC0C4A91E28D63D0037C053 /* UITableView+FDIndexPathHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDIndexPathHeightCache.m"; sourceTree = "<group>"; };
+		4DC0C4AA1E28D63D0037C053 /* UITableView+FDKeyedHeightCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDKeyedHeightCache.h"; sourceTree = "<group>"; };
+		4DC0C4AB1E28D63D0037C053 /* UITableView+FDKeyedHeightCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDKeyedHeightCache.m"; sourceTree = "<group>"; };
+		4DC0C4AC1E28D63D0037C053 /* UITableView+FDTemplateLayoutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCell.h"; sourceTree = "<group>"; };
+		4DC0C4AD1E28D63D0037C053 /* UITableView+FDTemplateLayoutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCell.m"; sourceTree = "<group>"; };
+		4DC0C4AE1E28D63D0037C053 /* UITableView+FDTemplateLayoutCellDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FDTemplateLayoutCellDebug.h"; sourceTree = "<group>"; };
+		4DC0C4AF1E28D63D0037C053 /* UITableView+FDTemplateLayoutCellDebug.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FDTemplateLayoutCellDebug.m"; sourceTree = "<group>"; };
+		4DC0C4B01E28D63D0037C053 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4DC0C4B11E28D63D0037C053 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4DC703D61E378E0B003BD34D /* WGCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCNavigationController.h; sourceTree = "<group>"; };
+		4DC703D71E378E0B003BD34D /* WGCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCNavigationController.m; sourceTree = "<group>"; };
+		4DE32EC21E46034900431A73 /* TabOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabOneCell.h; sourceTree = "<group>"; };
+		4DE32EC31E46034900431A73 /* TabOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabOneCell.m; sourceTree = "<group>"; };
+		4DE32EC51E46035C00431A73 /* TabOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabOneCell.xib; sourceTree = "<group>"; };
+		4DF5F25F1E1C834C002B8E1E /* WGCButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCButton.h; sourceTree = "<group>"; };
+		4DF5F2601E1C834C002B8E1E /* WGCButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCButton.m; sourceTree = "<group>"; };
+		4DF5F2611E1C834C002B8E1E /* WGCTopBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCTopBar.h; sourceTree = "<group>"; };
+		4DF5F2621E1C834C002B8E1E /* WGCTopBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCTopBar.m; sourceTree = "<group>"; };
+		4DF5F2651E1C83DF002B8E1E /* WGCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCViewController.h; sourceTree = "<group>"; };
+		4DF5F2661E1C83DF002B8E1E /* WGCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCViewController.m; sourceTree = "<group>"; };
+		4DF5F2681E1C8A03002B8E1E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4DF5F2691E1C8A03002B8E1E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4DF5F26B1E1C8A7A002B8E1E /* WGCTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCTableViewController.h; sourceTree = "<group>"; };
+		4DF5F26C1E1C8A7A002B8E1E /* WGCTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCTableViewController.m; sourceTree = "<group>"; };
+		4DF5F26E1E1C8AA5002B8E1E /* WGCRefreshTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCRefreshTableViewController.h; sourceTree = "<group>"; };
+		4DF5F26F1E1C8AA5002B8E1E /* WGCRefreshTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCRefreshTableViewController.m; sourceTree = "<group>"; };
+		A93BE0C04FE9D938E543D19C /* Pods-WGCKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WGCKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WGCKit/Pods-WGCKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DAD581E1E1BCD0300FF6E7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB39944937B017E02C47616E /* libPods-WGCKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D0E21831E27C86C00699AF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DE32EC21E46034900431A73 /* TabOneCell.h */,
+				4DE32EC31E46034900431A73 /* TabOneCell.m */,
+				4DE32EC51E46035C00431A73 /* TabOneCell.xib */,
+			);
+			name = Views;
+			path = TabTwoController/Views;
+			sourceTree = "<group>";
+		};
+		4D17C8C91E1C94840056414C /* TabOneController */ = {
+			isa = PBXGroup;
+			children = (
+				4D17C8CA1E1C94840056414C /* WGCTestTableViewController.h */,
+				4D17C8CB1E1C94840056414C /* WGCTestTableViewController.m */,
+			);
+			path = TabOneController;
+			sourceTree = "<group>";
+		};
+		4D17C8CC1E1C94840056414C /* TabTwoController */ = {
+			isa = PBXGroup;
+			children = (
+				4D17C8D21E1C94A30056414C /* WGCTestRefreshTableViewController.h */,
+				4D17C8D31E1C94A30056414C /* WGCTestRefreshTableViewController.m */,
+				4D0BF2B81E2C5E1F00937E90 /* EmptyViewController.h */,
+				4D0BF2B91E2C5E1F00937E90 /* EmptyViewController.m */,
+			);
+			path = TabTwoController;
+			sourceTree = "<group>";
+		};
+		4D17C8CD1E1C94840056414C /* TabZeroController */ = {
+			isa = PBXGroup;
+			children = (
+				4D17C8CE1E1C94840056414C /* WGCTestViewController.h */,
+				4D17C8CF1E1C94840056414C /* WGCTestViewController.m */,
+			);
+			path = TabZeroController;
+			sourceTree = "<group>";
+		};
+		4D7493E81E4EFBD6001BDA0B /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				4D7493E91E4EFBFB001BDA0B /* WGCKit.h */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		4DAD58181E1BCD0300FF6E7F = {
+			isa = PBXGroup;
+			children = (
+				4DAD58231E1BCD0400FF6E7F /* WGCKit */,
+				4D7493E81E4EFBD6001BDA0B /* Headers */,
+				4DF5F25D1E1C8280002B8E1E /* Controllers */,
+				4DF5F25E1E1C8280002B8E1E /* Views */,
+				4DAD58221E1BCD0400FF6E7F /* Products */,
+				B6865CBCABF6A774D60BD4FD /* Pods */,
+				E1F24C936E0D5F22D433E270 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DAD58221E1BCD0400FF6E7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD58211E1BCD0400FF6E7F /* WGCKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DAD58231E1BCD0400FF6E7F /* WGCKit */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0C4A51E28D63C0037C053 /* ThirdParty */,
+				4DC0C4981E28D13E0037C053 /* Resource */,
+				4DC0C4941E28CE520037C053 /* Modes */,
+				4D0E21831E27C86C00699AF8 /* Views */,
+				4D17C8CD1E1C94840056414C /* TabZeroController */,
+				4D17C8C91E1C94840056414C /* TabOneController */,
+				4D17C8CC1E1C94840056414C /* TabTwoController */,
+				4DAD58271E1BCD0400FF6E7F /* AppDelegate.h */,
+				4DAD58281E1BCD0400FF6E7F /* AppDelegate.m */,
+				4DF5F2681E1C8A03002B8E1E /* MainViewController.h */,
+				4DF5F2691E1C8A03002B8E1E /* MainViewController.m */,
+				4DAD582D1E1BCD0400FF6E7F /* Main.storyboard */,
+				4DAD58301E1BCD0400FF6E7F /* Assets.xcassets */,
+				4DAD58321E1BCD0400FF6E7F /* LaunchScreen.storyboard */,
+				4DAD58351E1BCD0400FF6E7F /* Info.plist */,
+				4DAD58241E1BCD0400FF6E7F /* Supporting Files */,
+			);
+			path = WGCKit;
+			sourceTree = "<group>";
+		};
+		4DAD58241E1BCD0400FF6E7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DAD58251E1BCD0400FF6E7F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4DC0C4941E28CE520037C053 /* Modes */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0C4951E28CE910037C053 /* TabOneModel.h */,
+				4DC0C4961E28CE910037C053 /* TabOneModel.m */,
+			);
+			name = Modes;
+			path = TabTwoController/Views/Modes;
+			sourceTree = "<group>";
+		};
+		4DC0C4981E28D13E0037C053 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D4ACB781E29B72E002D3703 /* 1.png */,
+				4D4ACB7E1E29E579002D3703 /* 2.png */,
+				4D4ACB7C1E29B738002D3703 /* 3.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		4DC0C4A51E28D63C0037C053 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0C4A61E28D63D0037C053 /* UITableView+FDTemplateLayoutCell */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		4DC0C4A61E28D63D0037C053 /* UITableView+FDTemplateLayoutCell */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0C4A71E28D63D0037C053 /* Classes */,
+				4DC0C4B01E28D63D0037C053 /* LICENSE */,
+				4DC0C4B11E28D63D0037C053 /* README.md */,
+			);
+			path = "UITableView+FDTemplateLayoutCell";
+			sourceTree = "<group>";
+		};
+		4DC0C4A71E28D63D0037C053 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4DC0C4A81E28D63D0037C053 /* UITableView+FDIndexPathHeightCache.h */,
+				4DC0C4A91E28D63D0037C053 /* UITableView+FDIndexPathHeightCache.m */,
+				4DC0C4AA1E28D63D0037C053 /* UITableView+FDKeyedHeightCache.h */,
+				4DC0C4AB1E28D63D0037C053 /* UITableView+FDKeyedHeightCache.m */,
+				4DC0C4AC1E28D63D0037C053 /* UITableView+FDTemplateLayoutCell.h */,
+				4DC0C4AD1E28D63D0037C053 /* UITableView+FDTemplateLayoutCell.m */,
+				4DC0C4AE1E28D63D0037C053 /* UITableView+FDTemplateLayoutCellDebug.h */,
+				4DC0C4AF1E28D63D0037C053 /* UITableView+FDTemplateLayoutCellDebug.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4DF5F25D1E1C8280002B8E1E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5F2651E1C83DF002B8E1E /* WGCViewController.h */,
+				4DF5F2661E1C83DF002B8E1E /* WGCViewController.m */,
+				4DF5F26B1E1C8A7A002B8E1E /* WGCTableViewController.h */,
+				4DF5F26C1E1C8A7A002B8E1E /* WGCTableViewController.m */,
+				4DF5F26E1E1C8AA5002B8E1E /* WGCRefreshTableViewController.h */,
+				4DF5F26F1E1C8AA5002B8E1E /* WGCRefreshTableViewController.m */,
+				4DC703D61E378E0B003BD34D /* WGCNavigationController.h */,
+				4DC703D71E378E0B003BD34D /* WGCNavigationController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		4DF5F25E1E1C8280002B8E1E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4DF5F25F1E1C834C002B8E1E /* WGCButton.h */,
+				4DF5F2601E1C834C002B8E1E /* WGCButton.m */,
+				4DF5F2611E1C834C002B8E1E /* WGCTopBar.h */,
+				4DF5F2621E1C834C002B8E1E /* WGCTopBar.m */,
+				4D45E1A11E1D25BB007A9FDC /* WGCTableViewCell.h */,
+				4D45E1A21E1D25BB007A9FDC /* WGCTableViewCell.m */,
+				4D03E9D11E2B1021004A83C2 /* WGCLoopView.h */,
+				4D03E9D21E2B1021004A83C2 /* WGCLoopView.m */,
+				4D0BF2B51E2C565600937E90 /* WGCEmptyView.h */,
+				4D0BF2B61E2C565600937E90 /* WGCEmptyView.m */,
+				4D0BF2BE1E2CB42400937E90 /* WGCLineHelper.h */,
+				4D0BF2BF1E2CB42400937E90 /* WGCLineHelper.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B6865CBCABF6A774D60BD4FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93BE0C04FE9D938E543D19C /* Pods-WGCKit.debug.xcconfig */,
+				32CAC3A1F0405D85BECB7359 /* Pods-WGCKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1F24C936E0D5F22D433E270 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				015BA81CF2529DE1B671E2B2 /* libPods-WGCKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4DAD58201E1BCD0300FF6E7F /* WGCKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAD58381E1BCD0400FF6E7F /* Build configuration list for PBXNativeTarget "WGCKit" */;
+			buildPhases = (
+				1A6E8CD38FC26A2627A6D5B0 /* [CP] Check Pods Manifest.lock */,
+				4DAD581D1E1BCD0300FF6E7F /* Sources */,
+				4DAD581E1E1BCD0300FF6E7F /* Frameworks */,
+				4DAD581F1E1BCD0300FF6E7F /* Resources */,
+				1F5786E34B3C924C75BB74A5 /* [CP] Embed Pods Frameworks */,
+				FCF5B3B8537047050787466E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WGCKit;
+			productName = WGCKit;
+			productReference = 4DAD58211E1BCD0400FF6E7F /* WGCKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DAD58191E1BCD0300FF6E7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = WGC;
+				TargetAttributes = {
+					4DAD58201E1BCD0300FF6E7F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = B7ERBCTM4Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4DAD581C1E1BCD0300FF6E7F /* Build configuration list for PBXProject "WGCKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DAD58181E1BCD0300FF6E7F;
+			productRefGroup = 4DAD58221E1BCD0400FF6E7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DAD58201E1BCD0300FF6E7F /* WGCKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DAD581F1E1BCD0300FF6E7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC0C4B61E28D63D0037C053 /* LICENSE in Resources */,
+				4D4ACB7F1E29E579002D3703 /* 2.png in Resources */,
+				4D4ACB7D1E29B738002D3703 /* 3.png in Resources */,
+				4DAD58341E1BCD0400FF6E7F /* LaunchScreen.storyboard in Resources */,
+				4D4ACB791E29B72E002D3703 /* 1.png in Resources */,
+				4DAD58311E1BCD0400FF6E7F /* Assets.xcassets in Resources */,
+				4DAD582F1E1BCD0400FF6E7F /* Main.storyboard in Resources */,
+				4DE32EC61E46035C00431A73 /* TabOneCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6E8CD38FC26A2627A6D5B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1F5786E34B3C924C75BB74A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGCKit/Pods-WGCKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCF5B3B8537047050787466E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WGCKit/Pods-WGCKit-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4DAD581D1E1BCD0300FF6E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D0BF2BA1E2C5E1F00937E90 /* EmptyViewController.m in Sources */,
+				4DC0C4B31E28D63D0037C053 /* UITableView+FDKeyedHeightCache.m in Sources */,
+				4DAD58291E1BCD0400FF6E7F /* AppDelegate.m in Sources */,
+				4D03E9D31E2B1021004A83C2 /* WGCLoopView.m in Sources */,
+				4D45E1A31E1D25BB007A9FDC /* WGCTableViewCell.m in Sources */,
+				4DF5F2701E1C8AA5002B8E1E /* WGCRefreshTableViewController.m in Sources */,
+				4DC0C4B21E28D63D0037C053 /* UITableView+FDIndexPathHeightCache.m in Sources */,
+				4DF5F26A1E1C8A03002B8E1E /* MainViewController.m in Sources */,
+				4D0BF2C01E2CB42400937E90 /* WGCLineHelper.m in Sources */,
+				4DC703D81E378E0B003BD34D /* WGCNavigationController.m in Sources */,
+				4D17C8D41E1C94A30056414C /* WGCTestRefreshTableViewController.m in Sources */,
+				4D0BF2B71E2C565600937E90 /* WGCEmptyView.m in Sources */,
+				4DF5F2671E1C83DF002B8E1E /* WGCViewController.m in Sources */,
+				4DC0C4971E28CE910037C053 /* TabOneModel.m in Sources */,
+				4DAD58261E1BCD0400FF6E7F /* main.m in Sources */,
+				4DF5F2641E1C834C002B8E1E /* WGCTopBar.m in Sources */,
+				4DC0C4B51E28D63D0037C053 /* UITableView+FDTemplateLayoutCellDebug.m in Sources */,
+				4D17C8D11E1C94840056414C /* WGCTestViewController.m in Sources */,
+				4DC0C4B71E28D63D0037C053 /* README.md in Sources */,
+				4DF5F26D1E1C8A7A002B8E1E /* WGCTableViewController.m in Sources */,
+				4DF5F2631E1C834C002B8E1E /* WGCButton.m in Sources */,
+				4DE32EC41E46034900431A73 /* TabOneCell.m in Sources */,
+				4D17C8D01E1C94840056414C /* WGCTestTableViewController.m in Sources */,
+				4DC0C4B41E28D63D0037C053 /* UITableView+FDTemplateLayoutCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4DAD582D1E1BCD0400FF6E7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DAD582E1E1BCD0400FF6E7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DAD58321E1BCD0400FF6E7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DAD58331E1BCD0400FF6E7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4DAD58361E1BCD0400FF6E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4DAD58371E1BCD0400FF6E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DAD58391E1BCD0400FF6E7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93BE0C04FE9D938E543D19C /* Pods-WGCKit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7ERBCTM4Y;
+				INFOPLIST_FILE = WGCKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WGC.WGCKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4DAD583A1E1BCD0400FF6E7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32CAC3A1F0405D85BECB7359 /* Pods-WGCKit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B7ERBCTM4Y;
+				INFOPLIST_FILE = WGCKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.WGC.WGCKit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4DAD581C1E1BCD0300FF6E7F /* Build configuration list for PBXProject "WGCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAD58361E1BCD0400FF6E7F /* Debug */,
+				4DAD58371E1BCD0400FF6E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAD58381E1BCD0400FF6E7F /* Build configuration list for PBXNativeTarget "WGCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAD58391E1BCD0400FF6E7F /* Debug */,
+				4DAD583A1E1BCD0400FF6E7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4DAD58191E1BCD0300FF6E7F /* Project object */;
+}
