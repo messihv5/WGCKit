@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4D03E9D31E2B1021004A83C2 /* WGCLoopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D03E9D21E2B1021004A83C2 /* WGCLoopView.m */; };
 		4D0BF2B71E2C565600937E90 /* WGCEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF2B61E2C565600937E90 /* WGCEmptyView.m */; };
-		4D0BF2BA1E2C5E1F00937E90 /* EmptyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF2B91E2C5E1F00937E90 /* EmptyViewController.m */; };
 		4D0BF2C01E2CB42400937E90 /* WGCLineHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF2BF1E2CB42400937E90 /* WGCLineHelper.m */; };
 		4D17C8D01E1C94840056414C /* WGCTestTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17C8CB1E1C94840056414C /* WGCTestTableViewController.m */; };
 		4D17C8D11E1C94840056414C /* WGCTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17C8CF1E1C94840056414C /* WGCTestViewController.m */; };
@@ -49,8 +48,6 @@
 		4D03E9D21E2B1021004A83C2 /* WGCLoopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCLoopView.m; sourceTree = "<group>"; };
 		4D0BF2B51E2C565600937E90 /* WGCEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCEmptyView.h; sourceTree = "<group>"; };
 		4D0BF2B61E2C565600937E90 /* WGCEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCEmptyView.m; sourceTree = "<group>"; };
-		4D0BF2B81E2C5E1F00937E90 /* EmptyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmptyViewController.h; sourceTree = "<group>"; };
-		4D0BF2B91E2C5E1F00937E90 /* EmptyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmptyViewController.m; sourceTree = "<group>"; };
 		4D0BF2BE1E2CB42400937E90 /* WGCLineHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCLineHelper.h; sourceTree = "<group>"; };
 		4D0BF2BF1E2CB42400937E90 /* WGCLineHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGCLineHelper.m; sourceTree = "<group>"; };
 		4D17C8CA1E1C94840056414C /* WGCTestTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGCTestTableViewController.h; sourceTree = "<group>"; };
@@ -142,8 +139,6 @@
 			children = (
 				4D17C8D21E1C94A30056414C /* WGCTestRefreshTableViewController.h */,
 				4D17C8D31E1C94A30056414C /* WGCTestRefreshTableViewController.m */,
-				4D0BF2B81E2C5E1F00937E90 /* EmptyViewController.h */,
-				4D0BF2B91E2C5E1F00937E90 /* EmptyViewController.m */,
 			);
 			path = TabTwoController;
 			sourceTree = "<group>";
@@ -449,7 +444,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D0BF2BA1E2C5E1F00937E90 /* EmptyViewController.m in Sources */,
 				4DC0C4B31E28D63D0037C053 /* UITableView+FDKeyedHeightCache.m in Sources */,
 				4DAD58291E1BCD0400FF6E7F /* AppDelegate.m in Sources */,
 				4D03E9D31E2B1021004A83C2 /* WGCLoopView.m in Sources */,

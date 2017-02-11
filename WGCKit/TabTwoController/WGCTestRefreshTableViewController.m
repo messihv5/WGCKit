@@ -7,7 +7,6 @@
 //
 
 #import "WGCTestRefreshTableViewController.h"
-#import "EmptyViewController.h"
 #import "WGCLineHelper.h"
 
 @interface WGCTestRefreshTableViewController ()
@@ -46,12 +45,6 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:NO];
-    
-    if (!indexPath.row) {
-        EmptyViewController *emptyVC = [[EmptyViewController alloc] init];
-        
-        [self.navigationController pushViewController:emptyVC animated:YES];
-    }
 }
 
 #pragma mark - private method
